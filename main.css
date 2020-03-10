@@ -1,32 +1,39 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
     color: grey;
 }
 body {
-    padding: 20px;
+    padding: 10px;
 }
-.input__label, .input {
+.input__label, .button {
     display: block;
     margin-bottom:10px;
 }
-
 .input, .button {
-    border-radius: 5px;
-    background-color: lightgray;
+    border-radius: 3px;
     border-style: none;
+    height:25px;
 }
-
+.input {
+    margin-bottom: 5px;
+    width: 200px;
+    background-color: lightgray;
+}
 .button {
     background-color: darkturquoise;   
     color: white;
 }
-
 .tip__box, .counter__box {
     border: 2px solid lightgray;
-    padding: 2px;
+    padding: 5px;
     margin-top: 5px;
 }
 .hidden {
     display: none;
+}
+.playing {
+    color: darkturquoise;
+}
+.winner {
+    background-color: deepskyblue;
 }
